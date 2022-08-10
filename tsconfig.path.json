@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@ui": [
+        "components/ui"
+      ],
+      "@layout": [
+        "components/layout"
+      ],
+      "@views/*": [
+        "views/*"
+      ],
+      "@types": [
+        "utils/types"
+      ]
+    }
+  }
+}
