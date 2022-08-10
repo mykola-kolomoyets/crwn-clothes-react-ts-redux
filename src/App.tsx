@@ -1,15 +1,7 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-import Categories from './views/categories';
+import { Layout } from '@layout';
 
-import { Header } from '@layout';
-
-const App = () => (
-  <main>
-    <Header />
-
-    <Categories />
-  </main>
-);
+const App: FC = () => <Layout />;
 
 export default App;

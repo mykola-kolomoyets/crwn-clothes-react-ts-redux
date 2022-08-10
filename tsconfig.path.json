@@ -8,11 +8,26 @@
       "@layout": [
         "components/layout"
       ],
+      "@forms": [
+        "components/forms"
+      ],
       "@views/*": [
         "views/*"
       ],
       "@types": [
         "utils/types"
+      ],
+      "@enums": [
+        "utils/enums"
+      ],
+      "@router": [
+        "components/router"
+      ],
+      "@icons/*": [
+        "assets/vector/*"
+      ],
+      "@api": [
+        "api"
       ]
     }
   }
